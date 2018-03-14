@@ -1,0 +1,21 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hello World</mj-title>
+    <mj-include path="../common/defaults.mjml" />
+  </mj-head>
+  <mj-body>
+    <mj-include path="../common/header.mjml" />
+    <mj-wrapper padding="0" background-color="#f1f1f1" full-width="full-width">
+      <mj-section padding="30px">
+        <mj-column>
+          <mj-image src="https://prismic-io.s3.amazonaws.com/gary-blog%2F0082b1c5-16ce-46f4-af5b-bb098f8722e0_fresh-coffee.jpg" alt="Picture of a cup of coffee" />
+          <mj-text align="center" padding-top="20px">
+            <h1 style="color: #581845">50% Off All Coffees</h1>
+            <p style="color: #581845; font-size: 18px; line-height: 28px;">Pop into Cuppas this week and simply let us know you seen our email and you will save 50%!</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="../common/footer.mjml" />
+  </mj-body>
+</mjml>

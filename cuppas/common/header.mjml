@@ -1,0 +1,12 @@
+<mj-section background-color="#ffffff" padding="30px" full-width="full-width">
+  <mj-group>
+    <mj-column>
+      <mj-image src="https://prismic-io.s3.amazonaws.com/gary-blog%2F4b23880b-4f7f-40af-9e70-8476486052c7_cuppas.jpg" width="120px" alt align="left" />
+    </mj-column>
+    <mj-column vertical-align="bottom">
+      <mj-text font-size="12px" line-height="22px" color="#999999" align="right" padding="0 0 4px 0">
+        Fresh Coffee
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
