@@ -2,6 +2,12 @@
 
 This workflow will allow you to keep all of your MJML projects in one place if needed. You can work on projects individually or compile all of the projects at once. There is also a custom watch option so that you work on an individual project.
 
+**Powered by:**
+
+ <a href="http://mjml.io" target="_blank">
+    <img width="150" src="https://cloud.githubusercontent.com/assets/6558790/12672296/7b66d8cc-c675-11e5-805d-c6d196320537.png">
+  </a>
+
 ## Getting started:
 
 ```
