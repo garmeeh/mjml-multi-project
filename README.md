@@ -1,6 +1,6 @@
 # Multi Project Workflow - MJML
 
-This workflow will allow you to keep all of your MJML projects in one place if needed. You can work on projects individually or compile all of the projects at once. There is also a custom watch option so that you work on an individual project.
+This workflow will allow you to keep all of your MJML projects in one place if needed. You can work on projects individually or compile all of the projects at once. There is also a custom watch option so that you work on an individual project. For more info on how the project came about check this [blog post](https://www.garymeehan.ie/blog/emails-yes-emails)
 
 **Powered by:**
 
