@@ -5,11 +5,13 @@ const chalk = require('chalk');
 
 const { startCompileProcess } = require('./compile');
 const { startWatch } = require('./watch');
+const { cleanUp } = require('./clean');
 
 program
   .option('-c --compile', 'Compile Project')
   .option('-c --compileAll', 'Compile All Projects')
   .option('-w --watch', 'Watch & Compile')
+  .option('--clean', 'Clean Up')
   .parse(process.argv);
 
 clear();
@@ -30,4 +32,8 @@ if (program.compileAll) {
 
 if (program.watch) {
   startWatch();
+}
+
+if (program.clean) {
+  cleanUp();
 }

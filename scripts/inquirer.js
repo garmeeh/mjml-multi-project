@@ -16,5 +16,20 @@ module.exports = {
         }
       ])
       .then(answers => answers);
+  },
+  confirm: () => {
+    return inquirer
+      .prompt([
+        {
+          type: 'list',
+          name: 'confirmation',
+          message: 'Are you sure?',
+          choices: ['No', 'Yes'],
+          filter(option) {
+            return option.toLowerCase();
+          }
+        }
+      ])
+      .then(answer => answer);
   }
 };
