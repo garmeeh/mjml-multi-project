@@ -17,6 +17,33 @@ yarn install
 
 This will initialize the project with a sample project (cuppas).
 
+**To Remove Sample Project & Clean Git run:**
+
+```
+yarn clean-up
+```
+
+Running this will remove the sample project and git. You will need to manually remove `cuppas` from `projects.config.js`.
+
+## Adding a new project
+
+Run:
+
+```
+yarn create-project "newproject"
+```
+
+You will need to add your new project to `projects` in `projects.config.js`.
+
+This will create the following folder structure:
+
+```
+├── newproject/                     * new project
+ |   ├── common                     * directory to hold partial includes for templates
+ |   ├── COMPILED_TEMPLATES         * output folder for this projects templates (.html)
+ |   ├── templates                  * mjml template files
+```
+
 ## Commands available:
 
 ```
@@ -37,21 +64,17 @@ $ yarn watch
 
 This will allow you to work on an individual project and it will auto compile your templates on file change/save.
 
-## Adding a new project
-
-To your another project to work on:
-
-1.  Create a new folder at the root, using lowercase and no spaces
-2.  In this folder you will need the following directories:
-
 ```
-├── newproject/                     * new project
- |   ├── common                     * directory to hold partial includes for templates
- |   ├── COMPILED_TEMPLATES         * output folder for this projects templates (.html)
- |   ├── templates                  * mjml template files
+$ yarn create-project "newproject"
 ```
 
-3.  Add the project to the projects array in `projects.config.js`
+This will scaffold out a new project directory.
+
+```
+$ yarn clean-up
+```
+
+Running this will remove the sample project and git.
 
 **Project Structure**
 
@@ -84,8 +107,7 @@ mjml-multi-project/
 ## TODO
 
 * Add publish script which will give options of uploading templates to API
-* Add tests for compile script
-* Add CLI to create new projects
+* Add tests for scripts
 
 ## Contributors
 

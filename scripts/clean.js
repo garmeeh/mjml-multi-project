@@ -16,6 +16,9 @@ async function cleanUp() {
   );
   const { confirmation } = await confirm();
   if (confirmation === 'yes') {
+    log.info(
+      `Don't forget to remove cuppas from projects in projects.config.js`
+    );
     toRemove.forEach(remove => {
       try {
         rimraf(remove, () => {
